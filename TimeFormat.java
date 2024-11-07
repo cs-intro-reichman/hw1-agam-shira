@@ -25,9 +25,9 @@ public class TimeFormat {
 		  	 amPm = "AM";
 		}
 			if (minutes < 10) {
-				System.out.println(hours + ":" + "0" + minutes + amPm);
+				System.out.println(hours + ":" + "0" + minutes + " " + amPm);
 				}
-			else { System.out.println(hours + ":" + minutes + amPm);
+			else { System.out.println(hours + ":" + minutes + " " + amPm);
 				}
 			}
 		}
